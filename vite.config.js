@@ -10,4 +10,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
     },
   },
+  base: '/languages-vs-each-other/', // ⚠️ Important: match your GitHub repo name
 })
